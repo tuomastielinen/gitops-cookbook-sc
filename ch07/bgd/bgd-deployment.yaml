@@ -1,4 +1,3 @@
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -23,6 +22,6 @@ spec:
         name: bgd
         env:
         - name: COLOR
-          value: "blue"
+          value: "green"
         resources: {}
 ---
